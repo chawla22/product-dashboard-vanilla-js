@@ -40,3 +40,8 @@ function displayProducts(products) {
     container.appendChild(card);
   });
 }
+
+// adding a reusable error handler function
+function handleError(error) {
+  console.error(`An error occurred: ${error.message}`);
+}
